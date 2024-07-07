@@ -1,0 +1,81 @@
+repo_name: ashellwig/skeleton
+report_id: 5fb1c721878228b3d4f58532ae1ea697
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-07T04:24:05+00:00'
+requested_by: gavofyork
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ashellwig/skeleton
+  detection_source: Repo Metadata
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/ashellwig/skeleton/blob/master/src/client/scripts/app.jsx
+  detection_source: src/client/scripts/app.jsx
+  last_updated_by: Gav
+  last_updated_on: 2017-04-13 10:51:58.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ashellwig/skeleton
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/ashellwig/skeleton/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Jannis R
+  last_updated_on: 2017-02-01 14:51:45.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/ashellwig/skeleton/blob/master/webpack.config.js
+  detection_source: webpack.config.js
+  last_updated_by: Gav
+  last_updated_on: 2017-01-17 18:05:15.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ashellwig/skeleton
+  detection_source: Repo Metadata
